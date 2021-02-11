@@ -1,7 +1,3 @@
-//import { now } from './performance.mjs';
-//import { now } from './node_modules/performance/bin/performance.js'
-
-
 let find_missing = function(input) {
     
     //  calculate sum of all integers in input list
@@ -30,10 +26,15 @@ let random_array = [20, 14, 2, 17, 4, 12, 7, 5, 16, 9, 13, 8, 11, 18, 3, 6, 10, 
 //let random_array = [2]; // 1 missing
 
 
-//var t0 = performance.now()  // to measure time of execution
+console.time("find_missing execution time");
+
 let actual_missing = find_missing(random_array);
-//var t1 = performance.now()
-//console.log("Call to doSomething took " + (t1 - t0) + " milliseconds.")
+
+console.timeEnd("find_missing execution time");
+
+// var t1 = performance.now;
+// console.log(t0 + ' ' + t1);
+// console.log("Call to doSomething took " + (t1 - t0) + " milliseconds.")
 
 console.log("actual missing is " + actual_missing);
 

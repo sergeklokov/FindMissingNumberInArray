@@ -22,5 +22,11 @@ The difference between these i.e. ‘expected_sum - sum_of_elements’, is the m
 
 
 =====================================================================================
+Measuring performance:
+https://stackoverflow.com/questions/48768758/measure-process-time-with-node-js
+
+I tried to use performance library and failed:
 Install performance package to Node in order to check speed
 npm install performance
+https://stackoverflow.com/questions/313893/how-to-measure-time-taken-by-a-function-to-execute
+
